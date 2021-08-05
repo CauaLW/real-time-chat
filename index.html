@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat em tempo real</title>
+
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body id="container">
+    <h1>
+      Chat em tempo real com NodeJs e socket.io
+    </h1>
+    <form class="nick-form">
+        <label for="nickname">Apelido:</label>
+        <input type="text" name="nickname" class="nickname" placeholder="Digite aqui seu apelido">
+    </form>
+    <div class="chat-window"></div>
+    <div id="chatSection">
+      <form class="chat-form">
+        <label class="chat-label">Escreva uma mensagem:</label>
+        <input type="text" class="chat-input" placeholder="Digite aqui sua mensagem" />
+      </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

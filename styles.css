@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+#container {
+    background-color: #F3F5F6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #313131;
+}
+
+.nick-form {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 0;
+
+    font-size: 1.1em;
+}
+
+.chat-window {
+    height: 50vh;
+    width: 70vw;
+
+    overflow: auto;
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.chat-form {
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1.1em;
+}
+
+.chat-form .chat-input {
+    width: 50vw;
+    height: 25px;
+}
+
+input {
+    color: #313131;
+    outline: 0;
+}
